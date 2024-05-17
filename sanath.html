@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<style type="text/css">
+h2{
+    color:orange;
+  
+}
+.yy{
+ text-align:center;
+ color:red;
+ background-color:black;
+ font-size:15px;
+ margin-left:89px;
+ height:23px;
+ 
+}
+.ff{
+text-align:center;}
+
+</style>
+<script type="text/javascript">
+function rr(){
+document.getElememtById("ggg").submit();
+}
+function rrr(){
+document.getElementById("ggg").reset();
+}
+//window.alert("This application  is only for students")
+function ssr(){
+document.getElementById("sss").innerHTML="&#128512&#128513&#128514&#128515&#128516";
+}
+</script>
+<body bgcolor="yellow">
+<h2><strong>STUDENT APPLICATION FORM</strong></h2>
+<br>
+<marquee style="color:purple"><strong>Please Enter the vaild Details</strong></marquee>
+<br>
+<marquee id="sss">&#128520&#128524&#128532&#128533&#128545</marquee>
+<caption>click the below button and start</caption><br>
+<br>
+
+<button onclick="ssr()" class="ff">click</button><br>
+<form id="ggg">
+<br>
+Fname:<input type="text" size="16" maxlength="8">
+
+<br>
+<br>
+Lastname:<input type="text" size="12"  maxlength="8">
+<br>
+<h4 style="color:hotpink"><b>GENDER</b></h4>
+<input type="radio" name="gender">Male<br>
+<input type="radio" name="gender">Female
+<br>
+<h4 style="color:Tomato">Hobbies</h4>
+<input type="checkbox">Playing<br>
+<input type="checkbox">Singing<br>
+<input type="checkbox">Reading<br>
+<input type="checkbox">Listening music<br>
+<h4>Languages</h4>
+<select size="5" multiple>
+<option>Telugu</option>
+<option>Hindi</option>
+<option>English</option>
+<option>Tamil</option>
+<option>Kannada</option>
+</select>
+<br>
+<br>
+<b>Pin number</b><br>
+<input type="number" maxlength="7">
+<h4>Address</h4>
+<textarea rows="7" cols="40" style="color:grey">
+</textarea>
+</form>
+<button type="submit" onclick="rr()" class="yy"><b>Submit</b></button>
+<button type="reset" onclick="rrr()" class="yy"><b>Reset</b></button>
+<!--<button type="submit" onclick="rr()" class="yy"><b>Submit</b></button>-->
+</body>
+</DOCTYPE>
